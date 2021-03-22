@@ -1,0 +1,4 @@
+/.vscode
+/__pycache__
+/secrets.py
+/test_logic.ipynb
