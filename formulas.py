@@ -32,8 +32,8 @@ def map_splitter(upper_left, upper_right, lower_right):
         y_even.append(current_point_y)
         current_point_y -= (1.0/111.0 * 2.0)
 
-    even_points = [[i, j] for i in x_even for j in y_even]
-    odd_points = [[f, k] for f in x_odd for k in y_odd]
+    even_points = [[str(i), str(j)] for i in x_even for j in y_even]
+    odd_points = [[str(f), str(k)] for f in x_odd for k in y_odd]
     output = even_points + odd_points
 
     return output
